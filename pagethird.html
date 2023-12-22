@@ -1,0 +1,135 @@
+<html>
+<body>
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <<link rel="icon" href="bs.png" />
+<title>Krish Technologies | A Website designing Site, Noida</title>
+	<meta charset='utf-8' />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="css/jquery.magnific-popup.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
+	
+<style>
+#navhelp{
+	margin-left: 737px;
+	background-color: blue;
+	color: white;
+	font-size: 14px;
+}
+.navhead{
+	background-color: orange;
+}
+#aboutlid > a:hover{
+	background-color: white;
+	color: orange;
+	font-type: strong;
+	transition: 0.3s;
+}
+#serviceid > a:hover{
+	background-color: white;
+	color: orange;
+	transition: 0.3s;
+}
+#portfolioid > a:hover{
+	background-color: white;
+	color: orange;
+	transition: 0.3s;
+	
+}
+#pricingid >a:hover{
+	background-color: white;
+	color: orange;
+	transition: 0.2s;
+}
+#contactid >a:hover{
+	background-color: white;
+	color: orange;
+	transition: 0.2s;
+}
+#third_para1{
+	margin: 67px;
+
+}
+</style>
+<nav class="navhead navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class=" navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a id="logoid"class="navbar-brand" href="#myPage">Logo</a>
+    </div>
+	<div id="navhelp"style="font-size:16px">Helpline: +91 7503829561 | krishanveer33@gmail.com</div>
+		
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="navfont nav navbar-nav navbar-right">
+        <li id="aboutlid"><a href="#about">ABOUT</a></li>
+        <li id="serviceid"><a href="#services">SERVICES</a></li>
+        <li id="portfolioid"><a href="#portfolio">PORTFOLIO</a></li>
+        <li id="pricingid"><a href="#pricing">PRICING</a></li>
+        <li id="contactid"><a href="krishcontact.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ <div class="third_1" id="third_first">
+	<p id="third_para1">Orem Ipsum des sent fit fidfd fdfild fdlfdjf dfjdfj f df dfj sldfi dfdfkf fdjfi f dif df 
+		il fj jjdfjfjdf fjdk ifdfj fjfdiffh kfik iruie ruoewp rier er roro rejf oldcp ierire ier 
+		leid fk iie wpwoe wpeor wierpror wiier iel iekmc cnc cjl fjdik fikris fhid
+	</p>
+	<div class="h4">Photos</div>
+	<div id="photo" class="tab-pane fade">
+				
+					 <div class="popup-gallery">
+						<a href="img6.jpg" ><img src="img6.jpg" height="75" width=auto></a>
+						<a href="img5.jpg" ><img src="img5.jpg" height="75" width=auto>
+							<span style="position:absolute; background-size:cover; color: white;margin-left:-91px; margin-top:11px; text-align:center; font-size: 35px">+5</span>
+						</a>
+						<a href="img9.jpg" ><img src="img9.jpg" height="75" width=auto ></a>
+						</div>	
+				</div>
+				<div class="h4">Videos</div>
+				
+				
+				
+ 
+ 
+ 
+ </div>
+
+ 
+ <script>
+
+$(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Krishan Veer</small>';
+			}
+		}
+	});
+	});
+	
+	
+	
+
+
+
+</script>
